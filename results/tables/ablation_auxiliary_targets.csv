@@ -1,0 +1,8 @@
+block,configuration,IoU,delta_IoU,delta_CI95_low,delta_CI95_high,Lm,Lt,Wmin,Wavg,Wmax,A
+a (one target removed; seed 1; one GPU),full model,0.7121,,,,3.7,5.8,20.2,14.8,13.2,12.4
+a (one target removed; seed 1; one GPU),w/o signed distance,0.7118,0.0003,-0.0041,0.0045,3.4,7.1,22.9,15.3,12.9,11.9
+a (one target removed; seed 1; one GPU),w/o centreline,0.7038,0.0083,0.0037,0.0129,4.9,7.5,21.3,14.5,12.7,11.6
+a (one target removed; seed 1; one GPU),w/o width,0.7110,0.0011,-0.0021,0.0041,3.6,7.2,23.5,15.1,13.1,12.9
+a (one target removed; seed 1; one GPU),w/o orientation,0.7058,0.0062,0.0012,0.0116,3.9,5.9,22.0,14.6,13.5,12.4
+b (centreline+width+orientation removed together; mean of two seeds),full model,0.7122,,,,3.0,5.6,21.5,15.2,14.0,12.2
+b (centreline+width+orientation removed together; mean of two seeds),w/o centreline + width + orientation,0.6967,0.0155,0.0088,0.0227,4.4,7.9,26.3,17.3,15.7,14.7

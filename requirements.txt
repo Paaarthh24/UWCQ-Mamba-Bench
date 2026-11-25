@@ -1,0 +1,10 @@
+torch>=2.1
+numpy
+opencv-python
+scipy
+scikit-image
+skan
+networkx
+pyyaml
+pillow
+# benchmark depth stage only: transformers

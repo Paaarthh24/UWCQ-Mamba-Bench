@@ -1,0 +1,10 @@
+method,GFLOPs,params_M,peak_memory_MiB,FPS
+U-Net,13.54,6.63,133.0,214.1
+CarNet,21.08,4.91,91.7,195.4
+RINDNet,311.58,59.39,1101.0,18.5
+DTrCNet,86.79,65.46,387.5,34.5
+SCSegamba,23.54,3.90,297.8,19.8
+RestorMixer,111.03,3.20,585.3,9.9
+MambaVision,47.33,32.66,267.6,53.8
+MixerCSeg,41.97,2.54,177.2,44.0
+UWCQ-Mamba,11.58,1.79,90.3,68.0

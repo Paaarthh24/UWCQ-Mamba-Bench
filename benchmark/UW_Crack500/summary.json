@@ -1,0 +1,51 @@
+{
+ "dataset": "Crack500",
+ "recipe": "UWCQ-Bench (RSUIGM x 10 Jerlov x 3 depths), labels > 127",
+ "sources": 3368,
+ "sources_missing": [],
+ "images": 101040,
+ "per_split": {
+  "train": 70710,
+  "val": 10080,
+  "test": 20250
+ },
+ "sources_per_split": {
+  "train": 2357,
+  "val": 336,
+  "test": 675
+ },
+ "files_missing": [],
+ "n_files_missing": 0,
+ "median_crack_contrast_retained": {
+  "deep/1C": 0.186,
+  "deep/3C": 0.146,
+  "deep/5C": 0.151,
+  "deep/7C": 0.145,
+  "deep/9C": 0.15,
+  "deep/I": 0.688,
+  "deep/IA": 0.675,
+  "deep/IB": 0.453,
+  "deep/II": 0.18,
+  "deep/III": 0.141,
+  "medium/1C": 0.17,
+  "medium/3C": 0.126,
+  "medium/5C": 0.127,
+  "medium/7C": 0.117,
+  "medium/9C": 0.086,
+  "medium/I": 0.664,
+  "medium/IA": 0.649,
+  "medium/IB": 0.427,
+  "medium/II": 0.17,
+  "medium/III": 0.127,
+  "shallow/1C": 0.198,
+  "shallow/3C": 0.148,
+  "shallow/5C": 0.141,
+  "shallow/7C": 0.133,
+  "shallow/9C": 0.129,
+  "shallow/I": 0.726,
+  "shallow/IA": 0.705,
+  "shallow/IB": 0.474,
+  "shallow/II": 0.22,
+  "shallow/III": 0.165
+ }
+}

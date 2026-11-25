@@ -1,0 +1,21 @@
+# Measurement protocol, applied identically to ground-truth and predicted masks.
+binarize: {kind: gt, thr: 127}
+clean:
+  open_close_px: 1
+  gap_close_px: 0
+  max_hole_px: 50
+  min_area_px: 0
+flag_tiny: {min_area_px: 30, min_skeleton_px: 10}
+width:
+  station_step_px: 2.0          # width stations every 2 px along the skeleton
+  spur_px: 12.0                 # spurs shorter than max(12 px, 2 w) are pruned
+  below_res_px: 2.0             # widths under 2 px are reported as the 2 px floor
+length: {spur_px: 12.0, smoothing: savgol, crosscheck_smoothing: kulpa, border_px: 2}
+qc:
+  hard_limits: {width_p95_px_max: 150}
+q2_gate: {length_crosscheck_rel: 0.015}
+scale:                          # one assumed per-axis scale for every dataset; relative errors do not depend on it
+  mode: fixed_axes
+  mm_per_px_short: 0.24513
+  mm_per_px_long: 0.24854
+  mm_per_px: null
